@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-image: url(dg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.card{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -70%;
+    
+    
+}
+
+
+.card .container{
+    width: 48%;
+    height: 70%;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 5px 10px 0 black;
+    
+}
+
+.card .container1{
+    width: 48%;
+    height: 70%;
+    background-color: #008000;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 5px 10px 0 green;
+}
+
+.card .img{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #fff;
+    position: relative;
+    top: -50px;
+    overflow: hidden;
+    
+}
+
+.card .img img{
+    height: 100px;
+    
+    
+}
+
+.card .title{
+    text-align: center;
+    color: black;
+    padding-bottom: 5px;
+}
+
+.card .des{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    letter-spacing: 0.05px;
+}
+
+.card .title1{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.card .des1{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    letter-spacing: 0.05px;
+}
+
+.array1{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(240, 222, 222);
+  position: absolute;
+  bottom: 35px;
+
+}
+
+.array{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #008000;
+    position: absolute;
+    bottom: 35px;
+  
+  }
+
+  .array img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #008000;
+    position: absolute;
+  }
+
+  .array1 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #dcecdc;
+    position: absolute;
+  }
+
+
+  
+
+
+
+
